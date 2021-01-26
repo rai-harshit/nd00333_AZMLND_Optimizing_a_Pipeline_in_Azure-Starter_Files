@@ -35,6 +35,8 @@ HyperDrive was used for tuning the hyperparameters of the model. The two paramet
 Since this was a Binary Classification problem, Logistic Regression was the algorithm of choice because of its simplicity and ease of implementation.
 
 **What are the benefits of the parameter sampler you chose?**
+The parameter sampler automates and speeds up the process of trying out different combinations of hyperparameter values in order to obtain the most efficient model. In this case, the sampler randomly selected values for two hyperparameters namely, Regularization Strength and Maxiumum number of iteratios. The values of Regularaization Strength were randomly picked from a uniform distribution between 0 and 1. In case of Maximum number of iterations, the sampler randomly selected values from the set (25,50,75,100,125,150,175).
+As evident from the above description, manually selecting values from the above ranges would be a cumbersome job. This problem can be easily mitigated by using a hyperparamter sampler, like the one provided by HyperDrive.
 
 **What are the benefits of the early stopping policy you chose?**
 
