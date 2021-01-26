@@ -8,7 +8,7 @@ This model is then compared to an Azure AutoML run.
 ## Summary
 This dataset contains data related to a marketing campaign, conducted over phone calls, by a bank. The goal is to predict whether or not a customer subscribed to a term deposit. In order to predict that, we take into account various characteristics of the customers some of which are age, martial status, education and type of job.
 
-The best performing model on the bank marketing dataset was the VotingEnsemble model which had an accuracy of about 91.68%. This model was created by the Azure AutoML tool in its 38th iteration. This model was slightly more accurate than the LogisticRegression model which has accuracy of about 91.31% and was optimized using the Hyperdrive tool.
+The best performing model on the bank marketing dataset was the VotingEnsemble model which had an accuracy of about 91.68%. This model was created by the Azure AutoML tool in its 38th iteration. This model was slightly more accurate than the LogisticRegression model which has accuracy of about 91.34% and was optimized using the Hyperdrive tool.
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
