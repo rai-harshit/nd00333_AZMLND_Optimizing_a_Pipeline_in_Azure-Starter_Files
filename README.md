@@ -27,7 +27,7 @@ This model is then compared to an Azure AutoML run.
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
 ## Proof of cluster clean up
-**The compute cluster was cleaned using the relevant command from within the Jupyter notebook. The same can be confirmed from the image below.**
+**The compute cluster was cleaned up (deleted) using the relevant command from within the Jupyter notebook. The same can be confirmed from the image below.**
 
 ![delete_cluster_proof](./delete_cluster.PNG)
 
